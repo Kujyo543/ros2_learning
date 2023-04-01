@@ -1,0 +1,448 @@
+[0.235s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.235s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='sequential', event_handlers=None, base_paths=['.'], paths=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=CustomArgumentParser(prog='colcon build', usage=None, description='Build a set of packages.', formatter_class=<class 'colcon_core.command.CustomFormatter'>, conflict_handler='error', add_help=True), verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f3418b4c4f0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f3418b4c4f0>>)
+[0.259s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.259s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.259s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.259s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/yu/ros2_learning/testsp0'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/learning_pkg_c) by extensions ['ignore', 'ignore_ament_install']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/learning_pkg_c) by extension 'ignore'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/learning_pkg_c) by extension 'ignore_ament_install'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/learning_pkg_c) by extensions ['ros']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/learning_pkg_c) by extension 'ros'
+[0.273s] DEBUG:colcon.colcon_core.package_identification:Package 'src/learning_pkg_c' with type 'ros.ament_cmake' and name 'learning_pkg_c'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/learning_pkg_python) by extensions ['ignore', 'ignore_ament_install']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/learning_pkg_python) by extension 'ignore'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/learning_pkg_python) by extension 'ignore_ament_install'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/learning_pkg_python) by extensions ['ros']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/learning_pkg_python) by extension 'ros'
+[0.274s] DEBUG:colcon.colcon_core.package_identification:Package 'src/learning_pkg_python' with type 'ros.ament_python' and name 'learning_pkg_python'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials) by extension 'ignore'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials) by extension 'ignore_ament_install'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials) by extensions ['ros']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials) by extension 'ros'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials) by extensions ['cmake', 'python']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials) by extension 'cmake'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials) by extension 'python'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials) by extensions ['python_setup_py']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials) by extension 'python_setup_py'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/docs) by extensions ['ignore', 'ignore_ament_install']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/docs) by extension 'ignore'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/docs) by extension 'ignore_ament_install'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/docs) by extensions ['ros']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/docs) by extension 'ros'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/docs) by extensions ['cmake', 'python']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/docs) by extension 'cmake'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/docs) by extension 'python'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/docs) by extensions ['python_setup_py']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/docs) by extension 'python_setup_py'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/learning_action) by extensions ['ignore', 'ignore_ament_install']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/learning_action) by extension 'ignore'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/learning_action) by extension 'ignore_ament_install'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/learning_action) by extensions ['ros']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/learning_action) by extension 'ros'
+[0.277s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_21_tutorials/learning_action' with type 'ros.ament_python' and name 'learning_action'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/learning_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/learning_gazebo) by extension 'ignore'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/learning_gazebo) by extension 'ignore_ament_install'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/learning_gazebo) by extensions ['ros']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/learning_gazebo) by extension 'ros'
+[0.277s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_21_tutorials/learning_gazebo' with type 'ros.ament_python' and name 'learning_gazebo'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/learning_interface) by extensions ['ignore', 'ignore_ament_install']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/learning_interface) by extension 'ignore'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/learning_interface) by extension 'ignore_ament_install'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/learning_interface) by extensions ['ros']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/learning_interface) by extension 'ros'
+[0.278s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_21_tutorials/learning_interface' with type 'ros.ament_cmake' and name 'learning_interface'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/learning_launch) by extensions ['ignore', 'ignore_ament_install']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/learning_launch) by extension 'ignore'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/learning_launch) by extension 'ignore_ament_install'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/learning_launch) by extensions ['ros']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/learning_launch) by extension 'ros'
+[0.279s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_21_tutorials/learning_launch' with type 'ros.ament_python' and name 'learning_launch'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/learning_node) by extensions ['ignore', 'ignore_ament_install']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/learning_node) by extension 'ignore'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/learning_node) by extension 'ignore_ament_install'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/learning_node) by extensions ['ros']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/learning_node) by extension 'ros'
+[0.280s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_21_tutorials/learning_node' with type 'ros.ament_python' and name 'learning_node'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/learning_parameter) by extensions ['ignore', 'ignore_ament_install']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/learning_parameter) by extension 'ignore'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/learning_parameter) by extension 'ignore_ament_install'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/learning_parameter) by extensions ['ros']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/learning_parameter) by extension 'ros'
+[0.281s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_21_tutorials/learning_parameter' with type 'ros.ament_python' and name 'learning_parameter'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/learning_qos) by extensions ['ignore', 'ignore_ament_install']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/learning_qos) by extension 'ignore'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/learning_qos) by extension 'ignore_ament_install'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/learning_qos) by extensions ['ros']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/learning_qos) by extension 'ros'
+[0.281s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_21_tutorials/learning_qos' with type 'ros.ament_python' and name 'learning_qos'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/learning_service) by extensions ['ignore', 'ignore_ament_install']
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/learning_service) by extension 'ignore'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/learning_service) by extension 'ignore_ament_install'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/learning_service) by extensions ['ros']
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/learning_service) by extension 'ros'
+[0.282s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_21_tutorials/learning_service' with type 'ros.ament_python' and name 'learning_service'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/learning_tf) by extensions ['ignore', 'ignore_ament_install']
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/learning_tf) by extension 'ignore'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/learning_tf) by extension 'ignore_ament_install'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/learning_tf) by extensions ['ros']
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/learning_tf) by extension 'ros'
+[0.283s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_21_tutorials/learning_tf' with type 'ros.ament_python' and name 'learning_tf'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/learning_topic) by extensions ['ignore', 'ignore_ament_install']
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/learning_topic) by extension 'ignore'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/learning_topic) by extension 'ignore_ament_install'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/learning_topic) by extensions ['ros']
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/learning_topic) by extension 'ros'
+[0.284s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_21_tutorials/learning_topic' with type 'ros.ament_python' and name 'learning_topic'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/learning_urdf) by extensions ['ignore', 'ignore_ament_install']
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/learning_urdf) by extension 'ignore'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/learning_urdf) by extension 'ignore_ament_install'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/learning_urdf) by extensions ['ros']
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/learning_urdf) by extension 'ros'
+[0.285s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_21_tutorials/learning_urdf' with type 'ros.ament_python' and name 'learning_urdf'
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/python) by extensions ['ignore', 'ignore_ament_install']
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/python) by extension 'ignore'
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/python) by extension 'ignore_ament_install'
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/python) by extensions ['ros']
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/python) by extension 'ros'
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/python) by extensions ['cmake', 'python']
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/python) by extension 'cmake'
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/python) by extension 'python'
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/python) by extensions ['python_setup_py']
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/python) by extension 'python_setup_py'
+[0.285s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.285s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.285s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'learning_gazebo' build argument 'cmake_args' from command line to 'None'
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'learning_gazebo' build argument 'cmake_target' from command line to 'None'
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'learning_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'learning_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'learning_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'learning_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'learning_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'learning_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'learning_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.310s] DEBUG:colcon.colcon_core.verb:Building package 'learning_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yu/ros2_learning/testsp0/build/learning_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yu/ros2_learning/testsp0/install/learning_gazebo', 'merge_install': False, 'path': '/home/yu/ros2_learning/testsp0/src/ros2_21_tutorials/learning_gazebo', 'symlink_install': False, 'test_result_base': None}
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'learning_interface' build argument 'cmake_args' from command line to 'None'
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'learning_interface' build argument 'cmake_target' from command line to 'None'
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'learning_interface' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'learning_interface' build argument 'cmake_clean_cache' from command line to 'False'
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'learning_interface' build argument 'cmake_clean_first' from command line to 'False'
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'learning_interface' build argument 'cmake_force_configure' from command line to 'False'
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'learning_interface' build argument 'ament_cmake_args' from command line to 'None'
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'learning_interface' build argument 'catkin_cmake_args' from command line to 'None'
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'learning_interface' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.311s] DEBUG:colcon.colcon_core.verb:Building package 'learning_interface' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yu/ros2_learning/testsp0/build/learning_interface', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yu/ros2_learning/testsp0/install/learning_interface', 'merge_install': False, 'path': '/home/yu/ros2_learning/testsp0/src/ros2_21_tutorials/learning_interface', 'symlink_install': False, 'test_result_base': None}
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'learning_launch' build argument 'cmake_args' from command line to 'None'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'learning_launch' build argument 'cmake_target' from command line to 'None'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'learning_launch' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'learning_launch' build argument 'cmake_clean_cache' from command line to 'False'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'learning_launch' build argument 'cmake_clean_first' from command line to 'False'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'learning_launch' build argument 'cmake_force_configure' from command line to 'False'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'learning_launch' build argument 'ament_cmake_args' from command line to 'None'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'learning_launch' build argument 'catkin_cmake_args' from command line to 'None'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'learning_launch' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.313s] DEBUG:colcon.colcon_core.verb:Building package 'learning_launch' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yu/ros2_learning/testsp0/build/learning_launch', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yu/ros2_learning/testsp0/install/learning_launch', 'merge_install': False, 'path': '/home/yu/ros2_learning/testsp0/src/ros2_21_tutorials/learning_launch', 'symlink_install': False, 'test_result_base': None}
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'learning_node' build argument 'cmake_args' from command line to 'None'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'learning_node' build argument 'cmake_target' from command line to 'None'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'learning_node' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'learning_node' build argument 'cmake_clean_cache' from command line to 'False'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'learning_node' build argument 'cmake_clean_first' from command line to 'False'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'learning_node' build argument 'cmake_force_configure' from command line to 'False'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'learning_node' build argument 'ament_cmake_args' from command line to 'None'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'learning_node' build argument 'catkin_cmake_args' from command line to 'None'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'learning_node' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.314s] DEBUG:colcon.colcon_core.verb:Building package 'learning_node' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yu/ros2_learning/testsp0/build/learning_node', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yu/ros2_learning/testsp0/install/learning_node', 'merge_install': False, 'path': '/home/yu/ros2_learning/testsp0/src/ros2_21_tutorials/learning_node', 'symlink_install': False, 'test_result_base': None}
+[0.315s] Level 5:colcon.colcon_core.verb:set package 'learning_parameter' build argument 'cmake_args' from command line to 'None'
+[0.315s] Level 5:colcon.colcon_core.verb:set package 'learning_parameter' build argument 'cmake_target' from command line to 'None'
+[0.315s] Level 5:colcon.colcon_core.verb:set package 'learning_parameter' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.315s] Level 5:colcon.colcon_core.verb:set package 'learning_parameter' build argument 'cmake_clean_cache' from command line to 'False'
+[0.315s] Level 5:colcon.colcon_core.verb:set package 'learning_parameter' build argument 'cmake_clean_first' from command line to 'False'
+[0.315s] Level 5:colcon.colcon_core.verb:set package 'learning_parameter' build argument 'cmake_force_configure' from command line to 'False'
+[0.315s] Level 5:colcon.colcon_core.verb:set package 'learning_parameter' build argument 'ament_cmake_args' from command line to 'None'
+[0.315s] Level 5:colcon.colcon_core.verb:set package 'learning_parameter' build argument 'catkin_cmake_args' from command line to 'None'
+[0.315s] Level 5:colcon.colcon_core.verb:set package 'learning_parameter' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.315s] DEBUG:colcon.colcon_core.verb:Building package 'learning_parameter' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yu/ros2_learning/testsp0/build/learning_parameter', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yu/ros2_learning/testsp0/install/learning_parameter', 'merge_install': False, 'path': '/home/yu/ros2_learning/testsp0/src/ros2_21_tutorials/learning_parameter', 'symlink_install': False, 'test_result_base': None}
+[0.316s] Level 5:colcon.colcon_core.verb:set package 'learning_pkg_c' build argument 'cmake_args' from command line to 'None'
+[0.316s] Level 5:colcon.colcon_core.verb:set package 'learning_pkg_c' build argument 'cmake_target' from command line to 'None'
+[0.316s] Level 5:colcon.colcon_core.verb:set package 'learning_pkg_c' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.316s] Level 5:colcon.colcon_core.verb:set package 'learning_pkg_c' build argument 'cmake_clean_cache' from command line to 'False'
+[0.316s] Level 5:colcon.colcon_core.verb:set package 'learning_pkg_c' build argument 'cmake_clean_first' from command line to 'False'
+[0.316s] Level 5:colcon.colcon_core.verb:set package 'learning_pkg_c' build argument 'cmake_force_configure' from command line to 'False'
+[0.316s] Level 5:colcon.colcon_core.verb:set package 'learning_pkg_c' build argument 'ament_cmake_args' from command line to 'None'
+[0.316s] Level 5:colcon.colcon_core.verb:set package 'learning_pkg_c' build argument 'catkin_cmake_args' from command line to 'None'
+[0.316s] Level 5:colcon.colcon_core.verb:set package 'learning_pkg_c' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.316s] DEBUG:colcon.colcon_core.verb:Building package 'learning_pkg_c' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yu/ros2_learning/testsp0/build/learning_pkg_c', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yu/ros2_learning/testsp0/install/learning_pkg_c', 'merge_install': False, 'path': '/home/yu/ros2_learning/testsp0/src/learning_pkg_c', 'symlink_install': False, 'test_result_base': None}
+[0.317s] Level 5:colcon.colcon_core.verb:set package 'learning_pkg_python' build argument 'cmake_args' from command line to 'None'
+[0.317s] Level 5:colcon.colcon_core.verb:set package 'learning_pkg_python' build argument 'cmake_target' from command line to 'None'
+[0.317s] Level 5:colcon.colcon_core.verb:set package 'learning_pkg_python' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.317s] Level 5:colcon.colcon_core.verb:set package 'learning_pkg_python' build argument 'cmake_clean_cache' from command line to 'False'
+[0.317s] Level 5:colcon.colcon_core.verb:set package 'learning_pkg_python' build argument 'cmake_clean_first' from command line to 'False'
+[0.317s] Level 5:colcon.colcon_core.verb:set package 'learning_pkg_python' build argument 'cmake_force_configure' from command line to 'False'
+[0.317s] Level 5:colcon.colcon_core.verb:set package 'learning_pkg_python' build argument 'ament_cmake_args' from command line to 'None'
+[0.317s] Level 5:colcon.colcon_core.verb:set package 'learning_pkg_python' build argument 'catkin_cmake_args' from command line to 'None'
+[0.317s] Level 5:colcon.colcon_core.verb:set package 'learning_pkg_python' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.317s] DEBUG:colcon.colcon_core.verb:Building package 'learning_pkg_python' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yu/ros2_learning/testsp0/build/learning_pkg_python', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yu/ros2_learning/testsp0/install/learning_pkg_python', 'merge_install': False, 'path': '/home/yu/ros2_learning/testsp0/src/learning_pkg_python', 'symlink_install': False, 'test_result_base': None}
+[0.318s] Level 5:colcon.colcon_core.verb:set package 'learning_qos' build argument 'cmake_args' from command line to 'None'
+[0.318s] Level 5:colcon.colcon_core.verb:set package 'learning_qos' build argument 'cmake_target' from command line to 'None'
+[0.318s] Level 5:colcon.colcon_core.verb:set package 'learning_qos' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.318s] Level 5:colcon.colcon_core.verb:set package 'learning_qos' build argument 'cmake_clean_cache' from command line to 'False'
+[0.318s] Level 5:colcon.colcon_core.verb:set package 'learning_qos' build argument 'cmake_clean_first' from command line to 'False'
+[0.318s] Level 5:colcon.colcon_core.verb:set package 'learning_qos' build argument 'cmake_force_configure' from command line to 'False'
+[0.318s] Level 5:colcon.colcon_core.verb:set package 'learning_qos' build argument 'ament_cmake_args' from command line to 'None'
+[0.318s] Level 5:colcon.colcon_core.verb:set package 'learning_qos' build argument 'catkin_cmake_args' from command line to 'None'
+[0.318s] Level 5:colcon.colcon_core.verb:set package 'learning_qos' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.318s] DEBUG:colcon.colcon_core.verb:Building package 'learning_qos' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yu/ros2_learning/testsp0/build/learning_qos', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yu/ros2_learning/testsp0/install/learning_qos', 'merge_install': False, 'path': '/home/yu/ros2_learning/testsp0/src/ros2_21_tutorials/learning_qos', 'symlink_install': False, 'test_result_base': None}
+[0.319s] Level 5:colcon.colcon_core.verb:set package 'learning_tf' build argument 'cmake_args' from command line to 'None'
+[0.319s] Level 5:colcon.colcon_core.verb:set package 'learning_tf' build argument 'cmake_target' from command line to 'None'
+[0.319s] Level 5:colcon.colcon_core.verb:set package 'learning_tf' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.319s] Level 5:colcon.colcon_core.verb:set package 'learning_tf' build argument 'cmake_clean_cache' from command line to 'False'
+[0.319s] Level 5:colcon.colcon_core.verb:set package 'learning_tf' build argument 'cmake_clean_first' from command line to 'False'
+[0.319s] Level 5:colcon.colcon_core.verb:set package 'learning_tf' build argument 'cmake_force_configure' from command line to 'False'
+[0.319s] Level 5:colcon.colcon_core.verb:set package 'learning_tf' build argument 'ament_cmake_args' from command line to 'None'
+[0.319s] Level 5:colcon.colcon_core.verb:set package 'learning_tf' build argument 'catkin_cmake_args' from command line to 'None'
+[0.319s] Level 5:colcon.colcon_core.verb:set package 'learning_tf' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.319s] DEBUG:colcon.colcon_core.verb:Building package 'learning_tf' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yu/ros2_learning/testsp0/build/learning_tf', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yu/ros2_learning/testsp0/install/learning_tf', 'merge_install': False, 'path': '/home/yu/ros2_learning/testsp0/src/ros2_21_tutorials/learning_tf', 'symlink_install': False, 'test_result_base': None}
+[0.320s] Level 5:colcon.colcon_core.verb:set package 'learning_urdf' build argument 'cmake_args' from command line to 'None'
+[0.320s] Level 5:colcon.colcon_core.verb:set package 'learning_urdf' build argument 'cmake_target' from command line to 'None'
+[0.320s] Level 5:colcon.colcon_core.verb:set package 'learning_urdf' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.320s] Level 5:colcon.colcon_core.verb:set package 'learning_urdf' build argument 'cmake_clean_cache' from command line to 'False'
+[0.320s] Level 5:colcon.colcon_core.verb:set package 'learning_urdf' build argument 'cmake_clean_first' from command line to 'False'
+[0.320s] Level 5:colcon.colcon_core.verb:set package 'learning_urdf' build argument 'cmake_force_configure' from command line to 'False'
+[0.320s] Level 5:colcon.colcon_core.verb:set package 'learning_urdf' build argument 'ament_cmake_args' from command line to 'None'
+[0.320s] Level 5:colcon.colcon_core.verb:set package 'learning_urdf' build argument 'catkin_cmake_args' from command line to 'None'
+[0.320s] Level 5:colcon.colcon_core.verb:set package 'learning_urdf' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.320s] DEBUG:colcon.colcon_core.verb:Building package 'learning_urdf' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yu/ros2_learning/testsp0/build/learning_urdf', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yu/ros2_learning/testsp0/install/learning_urdf', 'merge_install': False, 'path': '/home/yu/ros2_learning/testsp0/src/ros2_21_tutorials/learning_urdf', 'symlink_install': False, 'test_result_base': None}
+[0.321s] Level 5:colcon.colcon_core.verb:set package 'learning_action' build argument 'cmake_args' from command line to 'None'
+[0.321s] Level 5:colcon.colcon_core.verb:set package 'learning_action' build argument 'cmake_target' from command line to 'None'
+[0.321s] Level 5:colcon.colcon_core.verb:set package 'learning_action' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.321s] Level 5:colcon.colcon_core.verb:set package 'learning_action' build argument 'cmake_clean_cache' from command line to 'False'
+[0.321s] Level 5:colcon.colcon_core.verb:set package 'learning_action' build argument 'cmake_clean_first' from command line to 'False'
+[0.321s] Level 5:colcon.colcon_core.verb:set package 'learning_action' build argument 'cmake_force_configure' from command line to 'False'
+[0.321s] Level 5:colcon.colcon_core.verb:set package 'learning_action' build argument 'ament_cmake_args' from command line to 'None'
+[0.321s] Level 5:colcon.colcon_core.verb:set package 'learning_action' build argument 'catkin_cmake_args' from command line to 'None'
+[0.321s] Level 5:colcon.colcon_core.verb:set package 'learning_action' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.321s] DEBUG:colcon.colcon_core.verb:Building package 'learning_action' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yu/ros2_learning/testsp0/build/learning_action', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yu/ros2_learning/testsp0/install/learning_action', 'merge_install': False, 'path': '/home/yu/ros2_learning/testsp0/src/ros2_21_tutorials/learning_action', 'symlink_install': False, 'test_result_base': None}
+[0.322s] Level 5:colcon.colcon_core.verb:set package 'learning_service' build argument 'cmake_args' from command line to 'None'
+[0.322s] Level 5:colcon.colcon_core.verb:set package 'learning_service' build argument 'cmake_target' from command line to 'None'
+[0.322s] Level 5:colcon.colcon_core.verb:set package 'learning_service' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.322s] Level 5:colcon.colcon_core.verb:set package 'learning_service' build argument 'cmake_clean_cache' from command line to 'False'
+[0.322s] Level 5:colcon.colcon_core.verb:set package 'learning_service' build argument 'cmake_clean_first' from command line to 'False'
+[0.322s] Level 5:colcon.colcon_core.verb:set package 'learning_service' build argument 'cmake_force_configure' from command line to 'False'
+[0.322s] Level 5:colcon.colcon_core.verb:set package 'learning_service' build argument 'ament_cmake_args' from command line to 'None'
+[0.322s] Level 5:colcon.colcon_core.verb:set package 'learning_service' build argument 'catkin_cmake_args' from command line to 'None'
+[0.322s] Level 5:colcon.colcon_core.verb:set package 'learning_service' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.322s] DEBUG:colcon.colcon_core.verb:Building package 'learning_service' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yu/ros2_learning/testsp0/build/learning_service', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yu/ros2_learning/testsp0/install/learning_service', 'merge_install': False, 'path': '/home/yu/ros2_learning/testsp0/src/ros2_21_tutorials/learning_service', 'symlink_install': False, 'test_result_base': None}
+[0.323s] Level 5:colcon.colcon_core.verb:set package 'learning_topic' build argument 'cmake_args' from command line to 'None'
+[0.323s] Level 5:colcon.colcon_core.verb:set package 'learning_topic' build argument 'cmake_target' from command line to 'None'
+[0.323s] Level 5:colcon.colcon_core.verb:set package 'learning_topic' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.323s] Level 5:colcon.colcon_core.verb:set package 'learning_topic' build argument 'cmake_clean_cache' from command line to 'False'
+[0.323s] Level 5:colcon.colcon_core.verb:set package 'learning_topic' build argument 'cmake_clean_first' from command line to 'False'
+[0.323s] Level 5:colcon.colcon_core.verb:set package 'learning_topic' build argument 'cmake_force_configure' from command line to 'False'
+[0.324s] Level 5:colcon.colcon_core.verb:set package 'learning_topic' build argument 'ament_cmake_args' from command line to 'None'
+[0.324s] Level 5:colcon.colcon_core.verb:set package 'learning_topic' build argument 'catkin_cmake_args' from command line to 'None'
+[0.324s] Level 5:colcon.colcon_core.verb:set package 'learning_topic' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.324s] DEBUG:colcon.colcon_core.verb:Building package 'learning_topic' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yu/ros2_learning/testsp0/build/learning_topic', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yu/ros2_learning/testsp0/install/learning_topic', 'merge_install': False, 'path': '/home/yu/ros2_learning/testsp0/src/ros2_21_tutorials/learning_topic', 'symlink_install': False, 'test_result_base': None}
+[0.324s] INFO:colcon.colcon_core.executor:Executing jobs using 'sequential' executor
+[0.326s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'learning_gazebo'
+[0.326s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/yu/ros2_learning/testsp0/src/ros2_21_tutorials/learning_gazebo' with build type 'ament_python'
+[0.326s] Level 1:colcon.colcon_core.shell:create_environment_hook('learning_gazebo', 'ament_prefix_path')
+[0.330s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.330s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yu/ros2_learning/testsp0/install/learning_gazebo/share/learning_gazebo/hook/ament_prefix_path.dsv'
+[0.340s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yu/ros2_learning/testsp0/install/learning_gazebo/share/learning_gazebo/hook/ament_prefix_path.sh'
+[0.342s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.649s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/yu/ros2_learning/testsp0/src/ros2_21_tutorials/learning_gazebo'
+[0.650s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.298s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yu/ros2_learning/testsp0/src/ros2_21_tutorials/learning_gazebo': PYTHONPATH=/home/yu/ros2_learning/testsp0/build/learning_gazebo/prefix_override:/home/yu/ros2_learning/testsp0/install/learning_gazebo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/learning_gazebo build --build-base /home/yu/ros2_learning/testsp0/build/learning_gazebo/build install --record /home/yu/ros2_learning/testsp0/build/learning_gazebo/install.log --single-version-externally-managed
+[1.644s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yu/ros2_learning/testsp0/src/ros2_21_tutorials/learning_gazebo' returned '0': PYTHONPATH=/home/yu/ros2_learning/testsp0/build/learning_gazebo/prefix_override:/home/yu/ros2_learning/testsp0/install/learning_gazebo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/learning_gazebo build --build-base /home/yu/ros2_learning/testsp0/build/learning_gazebo/build install --record /home/yu/ros2_learning/testsp0/build/learning_gazebo/install.log --single-version-externally-managed
+[1.663s] Level 1:colcon.colcon_core.environment:checking '/home/yu/ros2_learning/testsp0/install/learning_gazebo' for CMake module files
+[1.663s] Level 1:colcon.colcon_core.environment:checking '/home/yu/ros2_learning/testsp0/install/learning_gazebo' for CMake config files
+[1.664s] Level 1:colcon.colcon_core.environment:checking '/home/yu/ros2_learning/testsp0/install/learning_gazebo/lib'
+[1.664s] Level 1:colcon.colcon_core.environment:checking '/home/yu/ros2_learning/testsp0/install/learning_gazebo/bin'
+[1.664s] Level 1:colcon.colcon_core.environment:checking '/home/yu/ros2_learning/testsp0/install/learning_gazebo/lib/pkgconfig/learning_gazebo.pc'
+[1.665s] Level 1:colcon.colcon_core.environment:checking '/home/yu/ros2_learning/testsp0/install/learning_gazebo/lib/python3.10/site-packages'
+[1.665s] Level 1:colcon.colcon_core.shell:create_environment_hook('learning_gazebo', 'pythonpath')
+[1.666s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yu/ros2_learning/testsp0/install/learning_gazebo/share/learning_gazebo/hook/pythonpath.dsv'
+[1.666s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yu/ros2_learning/testsp0/install/learning_gazebo/share/learning_gazebo/hook/pythonpath.sh'
+[1.667s] Level 1:colcon.colcon_core.environment:checking '/home/yu/ros2_learning/testsp0/install/learning_gazebo/bin'
+[1.667s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(learning_gazebo)
+[1.668s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yu/ros2_learning/testsp0/install/learning_gazebo/share/learning_gazebo/package.dsv'
+[1.669s] INFO:colcon.colcon_core.shell:Creating package script '/home/yu/ros2_learning/testsp0/install/learning_gazebo/share/learning_gazebo/package.sh'
+[1.670s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yu/ros2_learning/testsp0/install/learning_gazebo/share/colcon-core/packages/learning_gazebo)
+[1.670s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'learning_gazebo' finished with '0'
+[1.671s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'learning_interface'
+[1.671s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/yu/ros2_learning/testsp0/src/ros2_21_tutorials/learning_interface' with build type 'ament_cmake'
+[1.671s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/yu/ros2_learning/testsp0/src/ros2_21_tutorials/learning_interface'
+[1.672s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.700s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yu/ros2_learning/testsp0/build/learning_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yu/ros2_learning/testsp0/install/learning_urdf:/home/yu/ros2_learning/testsp0/install/learning_topic:/home/yu/ros2_learning/testsp0/install/learning_tf:/home/yu/ros2_learning/testsp0/install/learning_service:/home/yu/ros2_learning/testsp0/install/learning_qos:/home/yu/ros2_learning/testsp0/install/learning_pkg_python:/home/yu/ros2_learning/testsp0/install/learning_parameter:/home/yu/ros2_learning/testsp0/install/learning_node:/home/yu/ros2_learning/testsp0/install/learning_launch:/home/yu/ros2_learning/testsp0/install/learning_action:/home/yu/ros2_learning/testsp0/install/learning_gazebo:/home/yu/dev_ws/install/learning_urdf:/home/yu/dev_ws/install/learning_topic:/home/yu/dev_ws/install/learning_tf:/home/yu/dev_ws/install/learning_service:/home/yu/dev_ws/install/learning_qos:/home/yu/dev_ws/install/learning_pkg_python:/home/yu/dev_ws/install/learning_parameter:/home/yu/dev_ws/install/learning_node:/home/yu/dev_ws/install/learning_launch:/home/yu/dev_ws/install/learning_action:/home/yu/dev_ws/install/learning_gazebo:/opt/ros/humble /usr/bin/cmake --build /home/yu/ros2_learning/testsp0/build/learning_interface -- -j2 -l2
+[2.943s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yu/ros2_learning/testsp0/build/learning_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yu/ros2_learning/testsp0/install/learning_urdf:/home/yu/ros2_learning/testsp0/install/learning_topic:/home/yu/ros2_learning/testsp0/install/learning_tf:/home/yu/ros2_learning/testsp0/install/learning_service:/home/yu/ros2_learning/testsp0/install/learning_qos:/home/yu/ros2_learning/testsp0/install/learning_pkg_python:/home/yu/ros2_learning/testsp0/install/learning_parameter:/home/yu/ros2_learning/testsp0/install/learning_node:/home/yu/ros2_learning/testsp0/install/learning_launch:/home/yu/ros2_learning/testsp0/install/learning_action:/home/yu/ros2_learning/testsp0/install/learning_gazebo:/home/yu/dev_ws/install/learning_urdf:/home/yu/dev_ws/install/learning_topic:/home/yu/dev_ws/install/learning_tf:/home/yu/dev_ws/install/learning_service:/home/yu/dev_ws/install/learning_qos:/home/yu/dev_ws/install/learning_pkg_python:/home/yu/dev_ws/install/learning_parameter:/home/yu/dev_ws/install/learning_node:/home/yu/dev_ws/install/learning_launch:/home/yu/dev_ws/install/learning_action:/home/yu/dev_ws/install/learning_gazebo:/opt/ros/humble /usr/bin/cmake --build /home/yu/ros2_learning/testsp0/build/learning_interface -- -j2 -l2
+[3.103s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yu/ros2_learning/testsp0/build/learning_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yu/ros2_learning/testsp0/install/learning_urdf:/home/yu/ros2_learning/testsp0/install/learning_topic:/home/yu/ros2_learning/testsp0/install/learning_tf:/home/yu/ros2_learning/testsp0/install/learning_service:/home/yu/ros2_learning/testsp0/install/learning_qos:/home/yu/ros2_learning/testsp0/install/learning_pkg_python:/home/yu/ros2_learning/testsp0/install/learning_parameter:/home/yu/ros2_learning/testsp0/install/learning_node:/home/yu/ros2_learning/testsp0/install/learning_launch:/home/yu/ros2_learning/testsp0/install/learning_action:/home/yu/ros2_learning/testsp0/install/learning_gazebo:/home/yu/dev_ws/install/learning_urdf:/home/yu/dev_ws/install/learning_topic:/home/yu/dev_ws/install/learning_tf:/home/yu/dev_ws/install/learning_service:/home/yu/dev_ws/install/learning_qos:/home/yu/dev_ws/install/learning_pkg_python:/home/yu/dev_ws/install/learning_parameter:/home/yu/dev_ws/install/learning_node:/home/yu/dev_ws/install/learning_launch:/home/yu/dev_ws/install/learning_action:/home/yu/dev_ws/install/learning_gazebo:/opt/ros/humble /usr/bin/cmake --install /home/yu/ros2_learning/testsp0/build/learning_interface
+[3.256s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(learning_interface)
+[3.258s] Level 1:colcon.colcon_core.environment:checking '/home/yu/ros2_learning/testsp0/install/learning_interface' for CMake module files
+[3.259s] Level 1:colcon.colcon_core.environment:checking '/home/yu/ros2_learning/testsp0/install/learning_interface' for CMake config files
+[3.259s] Level 1:colcon.colcon_core.shell:create_environment_hook('learning_interface', 'cmake_prefix_path')
+[3.260s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yu/ros2_learning/testsp0/install/learning_interface/share/learning_interface/hook/cmake_prefix_path.dsv'
+[3.261s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yu/ros2_learning/testsp0/install/learning_interface/share/learning_interface/hook/cmake_prefix_path.sh'
+[3.261s] Level 1:colcon.colcon_core.environment:checking '/home/yu/ros2_learning/testsp0/install/learning_interface/lib'
+[3.261s] Level 1:colcon.colcon_core.shell:create_environment_hook('learning_interface', 'ld_library_path_lib')
+[3.262s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yu/ros2_learning/testsp0/install/learning_interface/share/learning_interface/hook/ld_library_path_lib.dsv'
+[3.262s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yu/ros2_learning/testsp0/install/learning_interface/share/learning_interface/hook/ld_library_path_lib.sh'
+[3.263s] Level 1:colcon.colcon_core.environment:checking '/home/yu/ros2_learning/testsp0/install/learning_interface/bin'
+[3.263s] Level 1:colcon.colcon_core.environment:checking '/home/yu/ros2_learning/testsp0/install/learning_interface/lib/pkgconfig/learning_interface.pc'
+[3.263s] Level 1:colcon.colcon_core.environment:checking '/home/yu/ros2_learning/testsp0/install/learning_interface/lib/python3.10/site-packages'
+[3.263s] Level 1:colcon.colcon_core.environment:checking '/home/yu/ros2_learning/testsp0/install/learning_interface/bin'
+[3.268s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yu/ros2_learning/testsp0/install/learning_interface/share/learning_interface/package.dsv'
+[3.268s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yu/ros2_learning/testsp0/build/learning_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yu/ros2_learning/testsp0/install/learning_urdf:/home/yu/ros2_learning/testsp0/install/learning_topic:/home/yu/ros2_learning/testsp0/install/learning_tf:/home/yu/ros2_learning/testsp0/install/learning_service:/home/yu/ros2_learning/testsp0/install/learning_qos:/home/yu/ros2_learning/testsp0/install/learning_pkg_python:/home/yu/ros2_learning/testsp0/install/learning_parameter:/home/yu/ros2_learning/testsp0/install/learning_node:/home/yu/ros2_learning/testsp0/install/learning_launch:/home/yu/ros2_learning/testsp0/install/learning_action:/home/yu/ros2_learning/testsp0/install/learning_gazebo:/home/yu/dev_ws/install/learning_urdf:/home/yu/dev_ws/install/learning_topic:/home/yu/dev_ws/install/learning_tf:/home/yu/dev_ws/install/learning_service:/home/yu/dev_ws/install/learning_qos:/home/yu/dev_ws/install/learning_pkg_python:/home/yu/dev_ws/install/learning_parameter:/home/yu/dev_ws/install/learning_node:/home/yu/dev_ws/install/learning_launch:/home/yu/dev_ws/install/learning_action:/home/yu/dev_ws/install/learning_gazebo:/opt/ros/humble /usr/bin/cmake --install /home/yu/ros2_learning/testsp0/build/learning_interface
+[3.269s] INFO:colcon.colcon_core.shell:Creating package script '/home/yu/ros2_learning/testsp0/install/learning_interface/share/learning_interface/package.sh'
+[3.269s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yu/ros2_learning/testsp0/install/learning_interface/share/colcon-core/packages/learning_interface)
+[3.403s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(learning_interface)
+[3.405s] Level 1:colcon.colcon_core.environment:checking '/home/yu/ros2_learning/testsp0/install/learning_interface' for CMake module files
+[3.406s] Level 1:colcon.colcon_core.environment:checking '/home/yu/ros2_learning/testsp0/install/learning_interface' for CMake config files
+[3.406s] Level 1:colcon.colcon_core.shell:create_environment_hook('learning_interface', 'cmake_prefix_path')
+[3.407s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yu/ros2_learning/testsp0/install/learning_interface/share/learning_interface/hook/cmake_prefix_path.dsv'
+[3.407s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yu/ros2_learning/testsp0/install/learning_interface/share/learning_interface/hook/cmake_prefix_path.sh'
+[3.408s] Level 1:colcon.colcon_core.environment:checking '/home/yu/ros2_learning/testsp0/install/learning_interface/lib'
+[3.408s] Level 1:colcon.colcon_core.shell:create_environment_hook('learning_interface', 'ld_library_path_lib')
+[3.408s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yu/ros2_learning/testsp0/install/learning_interface/share/learning_interface/hook/ld_library_path_lib.dsv'
+[3.409s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yu/ros2_learning/testsp0/install/learning_interface/share/learning_interface/hook/ld_library_path_lib.sh'
+[3.409s] Level 1:colcon.colcon_core.environment:checking '/home/yu/ros2_learning/testsp0/install/learning_interface/bin'
+[3.409s] Level 1:colcon.colcon_core.environment:checking '/home/yu/ros2_learning/testsp0/install/learning_interface/lib/pkgconfig/learning_interface.pc'
+[3.409s] Level 1:colcon.colcon_core.environment:checking '/home/yu/ros2_learning/testsp0/install/learning_interface/lib/python3.10/site-packages'
+[3.410s] Level 1:colcon.colcon_core.environment:checking '/home/yu/ros2_learning/testsp0/install/learning_interface/bin'
+[3.410s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yu/ros2_learning/testsp0/install/learning_interface/share/learning_interface/package.dsv'
+[3.411s] INFO:colcon.colcon_core.shell:Creating package script '/home/yu/ros2_learning/testsp0/install/learning_interface/share/learning_interface/package.sh'
+[3.412s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yu/ros2_learning/testsp0/install/learning_interface/share/colcon-core/packages/learning_interface)
+[3.413s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'learning_interface' finished with '0'
+[3.413s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'learning_launch'
+[3.413s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/yu/ros2_learning/testsp0/src/ros2_21_tutorials/learning_launch' with build type 'ament_python'
+[3.413s] Level 1:colcon.colcon_core.shell:create_environment_hook('learning_launch', 'ament_prefix_path')
+[3.414s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yu/ros2_learning/testsp0/install/learning_launch/share/learning_launch/hook/ament_prefix_path.dsv'
+[3.414s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yu/ros2_learning/testsp0/install/learning_launch/share/learning_launch/hook/ament_prefix_path.sh'
+[3.415s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.742s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/yu/ros2_learning/testsp0/src/ros2_21_tutorials/learning_launch'
+[3.743s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.169s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yu/ros2_learning/testsp0/src/ros2_21_tutorials/learning_launch': PYTHONPATH=/home/yu/ros2_learning/testsp0/build/learning_launch/prefix_override:/home/yu/ros2_learning/testsp0/install/learning_launch/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/learning_launch build --build-base /home/yu/ros2_learning/testsp0/build/learning_launch/build install --record /home/yu/ros2_learning/testsp0/build/learning_launch/install.log --single-version-externally-managed
+[4.526s] Level 1:colcon.colcon_core.environment:checking '/home/yu/ros2_learning/testsp0/install/learning_launch' for CMake module files
+[4.526s] Level 1:colcon.colcon_core.environment:checking '/home/yu/ros2_learning/testsp0/install/learning_launch' for CMake config files
+[4.527s] Level 1:colcon.colcon_core.environment:checking '/home/yu/ros2_learning/testsp0/install/learning_launch/lib'
+[4.531s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yu/ros2_learning/testsp0/src/ros2_21_tutorials/learning_launch' returned '0': PYTHONPATH=/home/yu/ros2_learning/testsp0/build/learning_launch/prefix_override:/home/yu/ros2_learning/testsp0/install/learning_launch/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/learning_launch build --build-base /home/yu/ros2_learning/testsp0/build/learning_launch/build install --record /home/yu/ros2_learning/testsp0/build/learning_launch/install.log --single-version-externally-managed
+[4.532s] Level 1:colcon.colcon_core.environment:checking '/home/yu/ros2_learning/testsp0/install/learning_launch/bin'
+[4.532s] Level 1:colcon.colcon_core.environment:checking '/home/yu/ros2_learning/testsp0/install/learning_launch/lib/pkgconfig/learning_launch.pc'
+[4.532s] Level 1:colcon.colcon_core.environment:checking '/home/yu/ros2_learning/testsp0/install/learning_launch/lib/python3.10/site-packages'
+[4.532s] Level 1:colcon.colcon_core.shell:create_environment_hook('learning_launch', 'pythonpath')
+[4.533s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yu/ros2_learning/testsp0/install/learning_launch/share/learning_launch/hook/pythonpath.dsv'
+[4.535s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yu/ros2_learning/testsp0/install/learning_launch/share/learning_launch/hook/pythonpath.sh'
+[4.536s] Level 1:colcon.colcon_core.environment:checking '/home/yu/ros2_learning/testsp0/install/learning_launch/bin'
+[4.536s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(learning_launch)
+[4.538s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yu/ros2_learning/testsp0/install/learning_launch/share/learning_launch/package.dsv'
+[4.538s] INFO:colcon.colcon_core.shell:Creating package script '/home/yu/ros2_learning/testsp0/install/learning_launch/share/learning_launch/package.sh'
+[4.539s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yu/ros2_learning/testsp0/install/learning_launch/share/colcon-core/packages/learning_launch)
+[4.540s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'learning_launch' finished with '0'
+[4.540s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'learning_node'
+[4.540s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/yu/ros2_learning/testsp0/src/ros2_21_tutorials/learning_node' with build type 'ament_python'
+[4.540s] Level 1:colcon.colcon_core.shell:create_environment_hook('learning_node', 'ament_prefix_path')
+[4.541s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yu/ros2_learning/testsp0/install/learning_node/share/learning_node/hook/ament_prefix_path.dsv'
+[4.542s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yu/ros2_learning/testsp0/install/learning_node/share/learning_node/hook/ament_prefix_path.sh'
+[4.546s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.872s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/yu/ros2_learning/testsp0/src/ros2_21_tutorials/learning_node'
+[4.873s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.266s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yu/ros2_learning/testsp0/src/ros2_21_tutorials/learning_node': PYTHONPATH=/home/yu/ros2_learning/testsp0/build/learning_node/prefix_override:/home/yu/ros2_learning/testsp0/install/learning_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/learning_node build --build-base /home/yu/ros2_learning/testsp0/build/learning_node/build install --record /home/yu/ros2_learning/testsp0/build/learning_node/install.log --single-version-externally-managed
+[5.575s] Level 1:colcon.colcon_core.environment:checking '/home/yu/ros2_learning/testsp0/install/learning_node' for CMake module files
+[5.576s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yu/ros2_learning/testsp0/src/ros2_21_tutorials/learning_node' returned '0': PYTHONPATH=/home/yu/ros2_learning/testsp0/build/learning_node/prefix_override:/home/yu/ros2_learning/testsp0/install/learning_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/learning_node build --build-base /home/yu/ros2_learning/testsp0/build/learning_node/build install --record /home/yu/ros2_learning/testsp0/build/learning_node/install.log --single-version-externally-managed
+[5.576s] Level 1:colcon.colcon_core.environment:checking '/home/yu/ros2_learning/testsp0/install/learning_node' for CMake config files
+[5.576s] Level 1:colcon.colcon_core.environment:checking '/home/yu/ros2_learning/testsp0/install/learning_node/lib'
+[5.577s] Level 1:colcon.colcon_core.environment:checking '/home/yu/ros2_learning/testsp0/install/learning_node/bin'
+[5.577s] Level 1:colcon.colcon_core.environment:checking '/home/yu/ros2_learning/testsp0/install/learning_node/lib/pkgconfig/learning_node.pc'
+[5.577s] Level 1:colcon.colcon_core.environment:checking '/home/yu/ros2_learning/testsp0/install/learning_node/lib/python3.10/site-packages'
+[5.577s] Level 1:colcon.colcon_core.shell:create_environment_hook('learning_node', 'pythonpath')
+[5.578s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yu/ros2_learning/testsp0/install/learning_node/share/learning_node/hook/pythonpath.dsv'
+[5.578s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yu/ros2_learning/testsp0/install/learning_node/share/learning_node/hook/pythonpath.sh'
+[5.579s] Level 1:colcon.colcon_core.environment:checking '/home/yu/ros2_learning/testsp0/install/learning_node/bin'
+[5.579s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(learning_node)
+[5.580s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yu/ros2_learning/testsp0/install/learning_node/share/learning_node/package.dsv'
+[5.580s] INFO:colcon.colcon_core.shell:Creating package script '/home/yu/ros2_learning/testsp0/install/learning_node/share/learning_node/package.sh'
+[5.581s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yu/ros2_learning/testsp0/install/learning_node/share/colcon-core/packages/learning_node)
+[5.581s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'learning_node' finished with '0'
+[5.581s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'learning_parameter'
+[5.581s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/yu/ros2_learning/testsp0/src/ros2_21_tutorials/learning_parameter' with build type 'ament_python'
+[5.582s] Level 1:colcon.colcon_core.shell:create_environment_hook('learning_parameter', 'ament_prefix_path')
+[5.582s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yu/ros2_learning/testsp0/install/learning_parameter/share/learning_parameter/hook/ament_prefix_path.dsv'
+[5.583s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yu/ros2_learning/testsp0/install/learning_parameter/share/learning_parameter/hook/ament_prefix_path.sh'
+[5.588s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.890s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/yu/ros2_learning/testsp0/src/ros2_21_tutorials/learning_parameter'
+[5.891s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.281s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yu/ros2_learning/testsp0/src/ros2_21_tutorials/learning_parameter': PYTHONPATH=/home/yu/ros2_learning/testsp0/build/learning_parameter/prefix_override:/home/yu/ros2_learning/testsp0/install/learning_parameter/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/learning_parameter build --build-base /home/yu/ros2_learning/testsp0/build/learning_parameter/build install --record /home/yu/ros2_learning/testsp0/build/learning_parameter/install.log --single-version-externally-managed
+[6.585s] Level 1:colcon.colcon_core.environment:checking '/home/yu/ros2_learning/testsp0/install/learning_parameter' for CMake module files
+[6.586s] Level 1:colcon.colcon_core.environment:checking '/home/yu/ros2_learning/testsp0/install/learning_parameter' for CMake config files
+[6.586s] Level 1:colcon.colcon_core.environment:checking '/home/yu/ros2_learning/testsp0/install/learning_parameter/lib'
+[6.586s] Level 1:colcon.colcon_core.environment:checking '/home/yu/ros2_learning/testsp0/install/learning_parameter/bin'
+[6.586s] Level 1:colcon.colcon_core.environment:checking '/home/yu/ros2_learning/testsp0/install/learning_parameter/lib/pkgconfig/learning_parameter.pc'
+[6.587s] Level 1:colcon.colcon_core.environment:checking '/home/yu/ros2_learning/testsp0/install/learning_parameter/lib/python3.10/site-packages'
+[6.587s] Level 1:colcon.colcon_core.shell:create_environment_hook('learning_parameter', 'pythonpath')
+[6.590s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yu/ros2_learning/testsp0/install/learning_parameter/share/learning_parameter/hook/pythonpath.dsv'
+[6.590s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yu/ros2_learning/testsp0/src/ros2_21_tutorials/learning_parameter' returned '0': PYTHONPATH=/home/yu/ros2_learning/testsp0/build/learning_parameter/prefix_override:/home/yu/ros2_learning/testsp0/install/learning_parameter/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/learning_parameter build --build-base /home/yu/ros2_learning/testsp0/build/learning_parameter/build install --record /home/yu/ros2_learning/testsp0/build/learning_parameter/install.log --single-version-externally-managed
+[6.591s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yu/ros2_learning/testsp0/install/learning_parameter/share/learning_parameter/hook/pythonpath.sh'
+[6.591s] Level 1:colcon.colcon_core.environment:checking '/home/yu/ros2_learning/testsp0/install/learning_parameter/bin'
+[6.591s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(learning_parameter)
+[6.592s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yu/ros2_learning/testsp0/install/learning_parameter/share/learning_parameter/package.dsv'
+[6.593s] INFO:colcon.colcon_core.shell:Creating package script '/home/yu/ros2_learning/testsp0/install/learning_parameter/share/learning_parameter/package.sh'
+[6.593s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yu/ros2_learning/testsp0/install/learning_parameter/share/colcon-core/packages/learning_parameter)
+[6.593s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'learning_parameter' finished with '0'
+[6.593s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'learning_pkg_c'
+[6.594s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/yu/ros2_learning/testsp0/src/learning_pkg_c' with build type 'ament_cmake'
+[6.594s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/yu/ros2_learning/testsp0/src/learning_pkg_c'
+[6.594s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.610s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yu/ros2_learning/testsp0/build/learning_pkg_c': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yu/ros2_learning/testsp0/install/learning_urdf:/home/yu/ros2_learning/testsp0/install/learning_topic:/home/yu/ros2_learning/testsp0/install/learning_tf:/home/yu/ros2_learning/testsp0/install/learning_service:/home/yu/ros2_learning/testsp0/install/learning_qos:/home/yu/ros2_learning/testsp0/install/learning_pkg_python:/home/yu/ros2_learning/testsp0/install/learning_parameter:/home/yu/ros2_learning/testsp0/install/learning_node:/home/yu/ros2_learning/testsp0/install/learning_launch:/home/yu/ros2_learning/testsp0/install/learning_action:/home/yu/ros2_learning/testsp0/install/learning_gazebo:/home/yu/dev_ws/install/learning_urdf:/home/yu/dev_ws/install/learning_topic:/home/yu/dev_ws/install/learning_tf:/home/yu/dev_ws/install/learning_service:/home/yu/dev_ws/install/learning_qos:/home/yu/dev_ws/install/learning_pkg_python:/home/yu/dev_ws/install/learning_parameter:/home/yu/dev_ws/install/learning_node:/home/yu/dev_ws/install/learning_launch:/home/yu/dev_ws/install/learning_action:/home/yu/dev_ws/install/learning_gazebo:/opt/ros/humble /usr/bin/cmake --build /home/yu/ros2_learning/testsp0/build/learning_pkg_c -- -j2 -l2
+[6.647s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yu/ros2_learning/testsp0/build/learning_pkg_c' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yu/ros2_learning/testsp0/install/learning_urdf:/home/yu/ros2_learning/testsp0/install/learning_topic:/home/yu/ros2_learning/testsp0/install/learning_tf:/home/yu/ros2_learning/testsp0/install/learning_service:/home/yu/ros2_learning/testsp0/install/learning_qos:/home/yu/ros2_learning/testsp0/install/learning_pkg_python:/home/yu/ros2_learning/testsp0/install/learning_parameter:/home/yu/ros2_learning/testsp0/install/learning_node:/home/yu/ros2_learning/testsp0/install/learning_launch:/home/yu/ros2_learning/testsp0/install/learning_action:/home/yu/ros2_learning/testsp0/install/learning_gazebo:/home/yu/dev_ws/install/learning_urdf:/home/yu/dev_ws/install/learning_topic:/home/yu/dev_ws/install/learning_tf:/home/yu/dev_ws/install/learning_service:/home/yu/dev_ws/install/learning_qos:/home/yu/dev_ws/install/learning_pkg_python:/home/yu/dev_ws/install/learning_parameter:/home/yu/dev_ws/install/learning_node:/home/yu/dev_ws/install/learning_launch:/home/yu/dev_ws/install/learning_action:/home/yu/dev_ws/install/learning_gazebo:/opt/ros/humble /usr/bin/cmake --build /home/yu/ros2_learning/testsp0/build/learning_pkg_c -- -j2 -l2
+[6.676s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(learning_pkg_c)
+[6.680s] Level 1:colcon.colcon_core.environment:checking '/home/yu/ros2_learning/testsp0/install/learning_pkg_c' for CMake module files
+[6.680s] Level 1:colcon.colcon_core.environment:checking '/home/yu/ros2_learning/testsp0/install/learning_pkg_c' for CMake config files
+[6.680s] Level 1:colcon.colcon_core.shell:create_environment_hook('learning_pkg_c', 'cmake_prefix_path')
+[6.681s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yu/ros2_learning/testsp0/install/learning_pkg_c/share/learning_pkg_c/hook/cmake_prefix_path.dsv'
+[6.682s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yu/ros2_learning/testsp0/install/learning_pkg_c/share/learning_pkg_c/hook/cmake_prefix_path.sh'
+[6.684s] Level 1:colcon.colcon_core.environment:checking '/home/yu/ros2_learning/testsp0/install/learning_pkg_c/bin'
+[6.684s] Level 1:colcon.colcon_core.environment:checking '/home/yu/ros2_learning/testsp0/install/learning_pkg_c/lib/pkgconfig/learning_pkg_c.pc'
+[6.684s] Level 1:colcon.colcon_core.environment:checking '/home/yu/ros2_learning/testsp0/install/learning_pkg_c/lib/python3.10/site-packages'
+[6.684s] Level 1:colcon.colcon_core.environment:checking '/home/yu/ros2_learning/testsp0/install/learning_pkg_c/bin'
+[6.685s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yu/ros2_learning/testsp0/install/learning_pkg_c/share/learning_pkg_c/package.dsv'
+[6.685s] INFO:colcon.colcon_core.shell:Creating package script '/home/yu/ros2_learning/testsp0/install/learning_pkg_c/share/learning_pkg_c/package.sh'
+[6.688s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yu/ros2_learning/testsp0/install/learning_pkg_c/share/colcon-core/packages/learning_pkg_c)
+[6.688s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'learning_pkg_c' finished with '2'
+[6.688s] DEBUG:colcon.colcon_core.executor.sequential:closing loop
+[6.688s] DEBUG:colcon.colcon_core.executor.sequential:loop closed
+[6.688s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[6.691s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[6.692s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yu/ros2_learning/testsp0/install/local_setup.sh'
+[6.694s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/yu/ros2_learning/testsp0/install/_local_setup_util_sh.py'
+[6.696s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yu/ros2_learning/testsp0/install/setup.sh'
